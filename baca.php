@@ -127,6 +127,3 @@ for ($x=0; $x <1; $x++) {
 	$x++;
 
 }
-
-Desktop version
-
