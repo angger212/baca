@@ -1,10 +1,8 @@
 <?php
 error_reporting(0);
 /**
-* @Author: Eka Syahwan
-* @Date: 2017-11-06 22:54:36
-* @Last Modified by: Eka Syahwan
-* @Last Modified time: 2017-12-11 17:12:21
+* @Author:MR.RIUS
+* @Last Modified by: MR.RIUS
 */
 class Modules
 {
