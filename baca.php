@@ -22,7 +22,7 @@ for ($x=0; $x <1; $x++) {
 	for ($cid=0; $cid <20; $cid++) { 
 		for ($page=0; $page <10; $page++) { 
 			$url[] = array(
-				'url' 	=> 'https://api.yogopro.com/api/ad/show'
+				'url' 	=> 'https://api.yogopro.com/api/ad/show'.page='.$page,
 				'note' 	=> 'optional', 
 			);
 		}
