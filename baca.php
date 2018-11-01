@@ -8,11 +8,11 @@ require_once("sdata-modules.php");
 
 
 ##############################################################################################################
-$config['deviceCode'] 		= '862387037856646';
-$config['tk'] 			= 'ACAJd4hjqSxNUajJqB4UfPuvytA9c7PZQRxxdHRodw';
-$config['token'] 		= 'ec1ektYz6HLi8NqNLYsoyidrZEDoAFqYZjmaoHReDN_Yy8tBr5oODZ_t8TdgATMnDiN0VIizWSvTmRE';
-$config['uuid'] 		= '5bbf9e3b82fc4a138d4039e411c0a54b';
-$config['sign'] 		= 'd80b7e2babfac2fdf6b3cfaf25fe4b81';
+$config['deviceCode'] 		= '';
+$config['tk'] 			= 'FwGtvVMGT31FIziu9bj5XV8jrEskxIaT41GPMRsyTKnybgnq6wIZ2N1BWpOJ0iGz';
+$config['token'] 		= '0b1e2ddcf44e0a75e0fac1fb8057ab53' ;
+$config['uuid'] 		= 'b66d59f2-8590-46a7-a832-fa21a1534f01';
+$config['sign'] 		= 'a59da624818ed6518bc6b7a737042a51698d6b5c';
 $config['android_id'] 		= '7714a6d2ecb583ba';
 ##############################################################################################################
 
@@ -22,7 +22,7 @@ for ($x=0; $x <1; $x++) {
 	for ($cid=0; $cid <20; $cid++) { 
 		for ($page=0; $page <10; $page++) { 
 			$url[] = array(
-				'url' 	=> 'http://api.baca.co.id/content/getList?cid='.$cid.'&page='.$page,
+				'url' 	=> 'https://api.yogopro.com/api/ad/show'
 				'note' 	=> 'optional', 
 			);
 		}
@@ -41,7 +41,7 @@ for ($x=0; $x <1; $x++) {
 		$rnd 	= array_rand($artikel); 
 		$id 	= $artikel[$rnd];
 		$url[] = array(
-			'url' 	=> 'http://api.beritaqu.net/timing/read',
+			'url' 	=> 'https://api.yogopro.com/api/ad/show'
 			'note' 	=> $rnd, 
 		);
 		$header[] = array(
